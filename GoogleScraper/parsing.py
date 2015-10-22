@@ -401,7 +401,7 @@ class GoogleParser(Parser):
     image_search_selectors = {
         'results': {
             'de_ip': {
-                'container': 'li#isr_mc',
+                'container': 'div#isr_mc',
                 'result_container': 'div.rg_di',
                 'link': 'a.rg_l::attr(href)'
             },
